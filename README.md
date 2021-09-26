@@ -5,4 +5,4 @@ When, How , Why use a framework.
 
 Also, learn how to use different tools in our project.
 
-FrameWork we will be using Symfony.
+We will use Discussion tab for any announcement, questions, ideas etc.
