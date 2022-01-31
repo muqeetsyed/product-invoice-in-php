@@ -1,5 +1,6 @@
 <?php
 
+namespace test;
 
 class CustomerTest
 {
