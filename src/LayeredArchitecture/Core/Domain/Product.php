@@ -1,6 +1,6 @@
 <?php
 
-namespace src\LayeredArchitecture\Core\Domain;
+namespace Raimons\LayeredArchitecture\Core\Domain;
 
 class Product
 {

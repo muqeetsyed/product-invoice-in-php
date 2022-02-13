@@ -1,18 +1,18 @@
 <?php
 
-require_once __DIR__ .'/src/LayeredArchitecture/Core/Domain/Customer.php';
-require_once __DIR__ .'/src/LayeredArchitecture/Core/Domain/Product.php';
+require_once __DIR__ .'/vendor/autoload.php';
 
-use src\LayeredArchitecture\Core\Domain\Customer;
+use Raimons\LayeredArchitecture\Core\Domain\Customer;
+use Raimons\LayeredArchitecture\Core\Domain\Product;
 
 var_dump(new Customer("test101","test@gmail.com","8348738732","address101"));
-var_dump(new src\LayeredArchitecture\Core\Domain\Product(
+var_dump(new Product(
     "product101","111","A","flavour101","yes",["something"],"","3 days"
     )
 );
 exit;
 
-$_SERVER['HTTP_HOST'] = 'raymonsFactory';
+$_SERVER['HTTP_HOST'] = 'raimonsFactory';
 
 //Customer Possible URLI's
 $_SERVER['REQUEST_URI'] = 'customer/new';
