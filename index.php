@@ -1,5 +1,17 @@
 <?php
 
+require_once __DIR__ .'/src/LayeredArchitecture/Core/Domain/Customer.php';
+require_once __DIR__ .'/src/LayeredArchitecture/Core/Domain/Product.php';
+
+use src\LayeredArchitecture\Core\Domain\Customer;
+
+var_dump(new Customer("test101","test@gmail.com","8348738732","address101"));
+var_dump(new src\LayeredArchitecture\Core\Domain\Product(
+    "product101","111","A","flavour101","yes",["something"],"","3 days"
+    )
+);
+exit;
+
 $_SERVER['HTTP_HOST'] = 'raymonsFactory';
 
 //Customer Possible URLI's
